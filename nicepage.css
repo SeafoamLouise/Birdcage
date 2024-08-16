@@ -42822,8 +42822,8 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-container-layout.u-container-layout.u-custom-color-8:before,
         .u-table-alt-custom-color-8 tr:nth-child(even)
         {
-            color: #292526;
-            background-color: #ffffff;
+            color: #e7e3d0;
+            background-color: #151515;
         }
 
         .u-input.u-custom-color-8,
@@ -42831,8 +42831,8 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-button-style.u-custom-color-8,
         .u-button-style.u-custom-color-8[class*="u-border-"]
         {
-            color: #292526 !important;
-            background-color: #ffffff !important;
+            color: #e7e3d0 !important;
+            background-color: #151515 !important;
         }
 
         .u-button-style.u-custom-color-8:hover,
@@ -42846,8 +42846,8 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > .u-button-style.u-button-style.u-custom-color-8,
         li.active > .u-button-style.u-button-style.u-custom-color-8[class*="u-border-"]
         {
-            color: #292526 !important;
-            background-color: #e6e6e6 !important;
+            color: #e7e3d0 !important;
+            background-color: #131313 !important;
         }
 
         .u-hover-custom-color-8:hover,
@@ -42874,12 +42874,84 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-active-custom-color-8[class*="u-border-"],
         input.u-field-input.u-field-input.u-active-custom-color-8:checked
         {
-            color: #292526 !important;
-            background-color: #ffffff !important;
+            color: #e7e3d0 !important;
+            background-color: #151515 !important;
         }
 
         a.u-link.u-hover-custom-color-8:hover {
-            color: #ffffff !important;
+            color: #151515 !important;
+        }
+
+        
+        
+        .u-custom-color-10,
+        .u-body.u-custom-color-10,
+        section.u-custom-color-10:before,
+        .u-custom-color-10 > .u-audio-main-layout-wrapper:before,
+        .u-custom-color-10 > .u-container-layout:before,
+        .u-custom-color-10 > .u-inner-container-layout:before,
+        .u-custom-color-10.u-sidenav:before,
+        .u-container-layout.u-container-layout.u-custom-color-10:before,
+        .u-table-alt-custom-color-10 tr:nth-child(even)
+        {
+            color: #e7e3d0;
+            background-color: #342f2b;
+        }
+
+        .u-input.u-custom-color-10,
+        .u-field-input.u-custom-color-10,
+        .u-button-style.u-custom-color-10,
+        .u-button-style.u-custom-color-10[class*="u-border-"]
+        {
+            color: #e7e3d0 !important;
+            background-color: #342f2b !important;
+        }
+
+        .u-button-style.u-custom-color-10:hover,
+        .u-button-style.u-custom-color-10[class*="u-border-"]:hover,
+        .u-button-style.u-custom-color-10:focus,
+        .u-button-style.u-custom-color-10[class*="u-border-"]:focus,
+        .u-button-style.u-button-style.u-custom-color-10:active,
+        .u-button-style.u-button-style.u-custom-color-10[class*="u-border-"]:active,
+        .u-button-style.u-button-style.u-custom-color-10.active,
+        .u-button-style.u-button-style.u-custom-color-10[class*="u-border-"].active,
+        li.active > .u-button-style.u-button-style.u-custom-color-10,
+        li.active > .u-button-style.u-button-style.u-custom-color-10[class*="u-border-"]
+        {
+            color: #e7e3d0 !important;
+            background-color: #2f2a27 !important;
+        }
+
+        .u-hover-custom-color-10:hover,
+        .u-hover-custom-color-10[class*="u-border-"]:hover,
+        .u-hover-custom-color-10:focus,
+        .u-hover-custom-color-10[class*="u-border-"]:focus,
+        .u-active-custom-color-10.u-active.u-active,
+        .u-active-custom-color-10[class*="u-border-"].u-active.u-active,
+        a.u-button-style.u-hover-custom-color-10:hover,
+        a.u-button-style.u-hover-custom-color-10.hover,
+        a.u-button-style.u-hover-custom-color-10[class*="u-border-"]:hover,
+        a.u-button-style.u-hover-custom-color-10[class*="u-border-"].hover,
+        a.u-button-style:hover > .u-hover-custom-color-10,
+        a.u-button-style:hover > .u-hover-custom-color-10[class*="u-border-"],
+        a.u-button-style.u-hover-custom-color-10:focus,
+        a.u-button-style.u-hover-custom-color-10[class*="u-border-"]:focus,
+        a.u-button-style.u-button-style.u-active-custom-color-10:active,
+        a.u-button-style.u-button-style.u-active-custom-color-10[class*="u-border-"]:active,
+        a.u-button-style.u-button-style.u-active-custom-color-10.active,
+        a.u-button-style.u-button-style.u-active-custom-color-10[class*="u-border-"].active,
+        a.u-button-style.u-button-style.active > .u-active-custom-color-10,
+        a.u-button-style.u-button-style.active > .u-active-custom-color-10[class*="u-border-"],
+        li.active > a.u-button-style.u-button-style.u-active-custom-color-10,
+        li.active > a.u-button-style.u-button-style.u-active-custom-color-10[class*="u-border-"],
+        input.u-field-input.u-field-input.u-active-custom-color-10:checked
+        {
+            color: #e7e3d0 !important;
+            background-color: #342f2b !important;
+        }
+
+        a.u-link.u-hover-custom-color-10:hover {
+            color: #342f2b !important;
         }
 
         
@@ -43145,14 +43217,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-border-custom-color-8.u-field-input.u-field-input,
         .u-separator-custom-color-8:after
         {
-            border-color: #ffffff;
-            stroke: #ffffff;
+            border-color: #151515;
+            stroke: #151515;
         }
 
         .u-button-style.u-border-custom-color-8
         {
-            border-color: #ffffff !important;
-            color: #ffffff !important;
+            border-color: #151515 !important;
+            color: #151515 !important;
             background-color: transparent !important;
         }
 
@@ -43160,7 +43232,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-button-style.u-border-custom-color-8:focus
         {
             border-color: transparent !important;
-            color: #e6e6e6 !important;
+            color: #131313 !important;
             background-color: transparent !important;
         }
 
@@ -43176,18 +43248,69 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-border-active-custom-color-8,
         input.u-field-input.u-field-input.u-border-active-custom-color-8:checked
         {
-            color: #ffffff !important;
-            border-color: #ffffff !important;
+            color: #151515 !important;
+            border-color: #151515 !important;
         }
 
         .u-link.u-border-custom-color-8[class*="u-border-"]
         {
-            border-color: #ffffff !important;
+            border-color: #151515 !important;
         }
 
         .u-link.u-border-custom-color-8[class*="u-border-"]:hover
         {
-            border-color: #e6e6e6 !important;
+            border-color: #131313 !important;
+        }
+        
+        
+        .u-border-custom-color-10,
+        .u-border-custom-color-10.u-input,
+        .u-border-custom-color-10.u-field-input.u-field-input,
+        .u-separator-custom-color-10:after
+        {
+            border-color: #342f2b;
+            stroke: #342f2b;
+        }
+
+        .u-button-style.u-border-custom-color-10
+        {
+            border-color: #342f2b !important;
+            color: #342f2b !important;
+            background-color: transparent !important;
+        }
+
+        .u-button-style.u-border-custom-color-10:hover,
+        .u-button-style.u-border-custom-color-10:focus
+        {
+            border-color: transparent !important;
+            color: #2f2a27 !important;
+            background-color: transparent !important;
+        }
+
+        .u-border-hover-custom-color-10:hover,
+        .u-border-hover-custom-color-10:focus,
+        .u-border-active-custom-color-10.u-active.u-active,
+        a.u-button-style.u-border-hover-custom-color-10:hover,
+        a.u-button-style:hover > .u-border-hover-custom-color-10,
+        a.u-button-style.u-border-hover-custom-color-10:focus,
+        a.u-button-style.u-button-style.u-border-active-custom-color-10:active,
+        a.u-button-style.u-button-style.u-border-active-custom-color-10.active,
+        a.u-button-style.u-button-style.active > .u-border-active-custom-color-10,
+        li.active > a.u-button-style.u-button-style.u-border-active-custom-color-10,
+        input.u-field-input.u-field-input.u-border-active-custom-color-10:checked
+        {
+            color: #342f2b !important;
+            border-color: #342f2b !important;
+        }
+
+        .u-link.u-border-custom-color-10[class*="u-border-"]
+        {
+            border-color: #342f2b !important;
+        }
+
+        .u-link.u-border-custom-color-10[class*="u-border-"]:hover
+        {
+            border-color: #2f2a27 !important;
         }
         
 
@@ -43575,7 +43698,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-text-custom-color-8,
         a.u-button-style.u-text-custom-color-8[class*="u-border-"]
         {
-            color: #ffffff !important;
+            color: #151515 !important;
         }
 
         a.u-button-style.u-text-custom-color-8:hover,
@@ -43587,7 +43710,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-button-style.u-text-custom-color-8.active,
         a.u-button-style.u-button-style.u-text-custom-color-8[class*="u-border-"].active
         {
-            color: #e6e6e6 !important;
+            color: #131313 !important;
         }
 
         /* hover */
@@ -43617,7 +43740,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-popupmenu-items.u-text-hover-custom-color-8 .u-nav-link:hover,
         .u-popupmenu-items.u-popupmenu-items.u-text-active-custom-color-8 .u-nav-link.active
         {
-            color: #ffffff !important;
+            color: #151515 !important;
         }
 
         .u-text-custom-color-8 .u-svg-link,
@@ -43628,17 +43751,92 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-button-style.u-button-style:active > .u-text-active-custom-color-8 .u-svg-link,
         .u-button-style.u-button-style.active > .u-text-active-custom-color-8 .u-svg-link
         {
-            fill: #ffffff;
+            fill: #151515;
         }
 
         .u-link.u-text-custom-color-8:hover
         {
-            color: #e6e6e6 !important;
+            color: #131313 !important;
         }
 
         a.u-link.u-text-hover-custom-color-8:hover
         {
-            color: #ffffff !important;
+            color: #151515 !important;
+        }
+        
+        
+        .u-text-custom-color-10,
+        .u-input.u-text-custom-color-10,
+        .u-input.u-text-custom-color-10[class*="u-border-"],
+        li.active > a.u-button-style.u-text-custom-color-10,
+        li.active > a.u-button-style.u-text-custom-color-10[class*="u-border-"],
+        a.u-button-style.u-text-custom-color-10,
+        a.u-button-style.u-text-custom-color-10[class*="u-border-"]
+        {
+            color: #342f2b !important;
+        }
+
+        a.u-button-style.u-text-custom-color-10:hover,
+        a.u-button-style.u-text-custom-color-10[class*="u-border-"]:hover,
+        a.u-button-style.u-text-custom-color-10:focus,
+        a.u-button-style.u-text-custom-color-10[class*="u-border-"]:focus,
+        a.u-button-style.u-button-style.u-text-custom-color-10:active,
+        a.u-button-style.u-button-style.u-text-custom-color-10[class*="u-border-"]:active,
+        a.u-button-style.u-button-style.u-text-custom-color-10.active,
+        a.u-button-style.u-button-style.u-text-custom-color-10[class*="u-border-"].active
+        {
+            color: #2f2a27 !important;
+        }
+
+        /* hover */
+        a.u-button-style:hover > .u-text-hover-custom-color-10,
+        a.u-button-style:hover > .u-text-hover-custom-color-10[class*="u-border-"],
+        a.u-button-style.u-button-style.u-text-hover-custom-color-10:hover,
+        a.u-button-style.u-button-style.u-text-hover-custom-color-10[class*="u-border-"]:hover,
+        a.u-button-style.u-button-style.u-button-style.u-text-hover-custom-color-10.active,
+        a.u-button-style.u-button-style.u-button-style.u-text-hover-custom-color-10[class*="u-border-"].active,
+        a.u-button-style.u-button-style.u-button-style.u-text-hover-custom-color-10:active,
+        a.u-button-style.u-button-style.u-button-style.u-text-hover-custom-color-10[class*="u-border-"]:active,
+        a.u-button-style.u-button-style.u-text-hover-custom-color-10:focus,
+        a.u-button-style.u-button-style.u-text-hover-custom-color-10[class*="u-border-"]:focus,
+        /* active */
+        a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-custom-color-10:active,
+        a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-custom-color-10[class*="u-border-"]:active,
+        a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-custom-color-10.active,
+        a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-custom-color-10[class*="u-border-"].active,
+        a.u-button-style.u-button-style.active > .u-text-active-custom-color-10,
+        a.u-button-style.u-button-style.active > .u-text-active-custom-color-10[class*="u-border-"],
+        :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-text-hover-custom-color-10:hover,
+        :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-custom-color-10.active,
+        .u-text-hover-custom-color-10.u-language-url:hover,
+        .u-text-hover-custom-color-10 .u-language-url:hover,
+        .u-text-hover-custom-color-10.u-carousel-control:hover,
+        .u-text-hover-custom-color-10.u-gallery-nav:hover,
+        .u-popupmenu-items.u-text-hover-custom-color-10 .u-nav-link:hover,
+        .u-popupmenu-items.u-popupmenu-items.u-text-active-custom-color-10 .u-nav-link.active
+        {
+            color: #342f2b !important;
+        }
+
+        .u-text-custom-color-10 .u-svg-link,
+        .u-text-hover-custom-color-10:hover .u-svg-link,
+        .u-text-hover-custom-color-10:focus .u-svg-link,
+        .u-text-active-custom-color-10:active .u-svg-link.u-svg-link,
+        .u-button-style:hover > .u-text-hover-custom-color-10 .u-svg-link,
+        .u-button-style.u-button-style:active > .u-text-active-custom-color-10 .u-svg-link,
+        .u-button-style.u-button-style.active > .u-text-active-custom-color-10 .u-svg-link
+        {
+            fill: #342f2b;
+        }
+
+        .u-link.u-text-custom-color-10:hover
+        {
+            color: #2f2a27 !important;
+        }
+
+        a.u-link.u-text-hover-custom-color-10:hover
+        {
+            color: #342f2b !important;
         }
 
         .u-body
@@ -44217,25 +44415,25 @@ a.u-link.u-text-hover-grey-90:hover {
         /** color-rules **/
 
         /** alt-color-rules **/
-        .u-custom-color-3 a,.u-custom-color-4 a,.u-custom-color-5 a,.u-custom-color-6 a,.u-custom-color-7 a,.u-body-color a,.u-bg-color a,.u-palette-1-base a,.u-palette-1-dark-3 a,.u-palette-1-dark-2 a,.u-palette-1-dark-1 a,.u-palette-1 a,.u-palette-1-light-1 a,.u-palette-2-base a,.u-palette-2-dark-3 a,.u-palette-2-dark-2 a,.u-palette-2-dark-1 a,.u-palette-2 a,.u-palette-2-light-1 a,.u-palette-3-dark-3 a,.u-palette-3-dark-2 a,.u-palette-3-dark-1 a,.u-palette-4-base a,.u-palette-4-dark-3 a,.u-palette-4-dark-2 a,.u-palette-4-dark-1 a,.u-palette-5-dark-3 a,.u-palette-5-dark-2 a,.u-palette-5-dark-1 a,.u-grey-40 a,.u-grey-30 a,.u-grey-90 a,.u-grey-80 a,.u-grey-75 a,.u-black a,.u-grey-70 a,.u-grey-60 a,.u-grey-50 a,.u-grey-dark-3 a,.u-grey-dark-2 a,.u-grey-dark-1 a,.u-grey a,.u-shading a,.u-overlap-contrast .u-header a:not(.u-nav-link):not(.u-btn)
+        .u-custom-color-3 a,.u-custom-color-4 a,.u-custom-color-5 a,.u-custom-color-6 a,.u-custom-color-7 a,.u-custom-color-8 a,.u-custom-color-10 a,.u-body-color a,.u-bg-color a,.u-palette-1-base a,.u-palette-1-dark-3 a,.u-palette-1-dark-2 a,.u-palette-1-dark-1 a,.u-palette-1 a,.u-palette-1-light-1 a,.u-palette-2-base a,.u-palette-2-dark-3 a,.u-palette-2-dark-2 a,.u-palette-2-dark-1 a,.u-palette-2 a,.u-palette-2-light-1 a,.u-palette-3-dark-3 a,.u-palette-3-dark-2 a,.u-palette-3-dark-1 a,.u-palette-4-base a,.u-palette-4-dark-3 a,.u-palette-4-dark-2 a,.u-palette-4-dark-1 a,.u-palette-5-dark-3 a,.u-palette-5-dark-2 a,.u-palette-5-dark-1 a,.u-grey-40 a,.u-grey-30 a,.u-grey-90 a,.u-grey-80 a,.u-grey-75 a,.u-black a,.u-grey-70 a,.u-grey-60 a,.u-grey-50 a,.u-grey-dark-3 a,.u-grey-dark-2 a,.u-grey-dark-1 a,.u-grey a,.u-shading a,.u-overlap-contrast .u-header a:not(.u-nav-link):not(.u-btn)
         {
         color: #ffffff;
         }
-        .u-custom-color-3 a:hover,.u-custom-color-4 a:hover,.u-custom-color-5 a:hover,.u-custom-color-6 a:hover,.u-custom-color-7 a:hover,.u-body-color a:hover,.u-bg-color a:hover,.u-palette-1-base a:hover,.u-palette-1-dark-3 a:hover,.u-palette-1-dark-2 a:hover,.u-palette-1-dark-1 a:hover,.u-palette-1 a:hover,.u-palette-1-light-1 a:hover,.u-palette-2-base a:hover,.u-palette-2-dark-3 a:hover,.u-palette-2-dark-2 a:hover,.u-palette-2-dark-1 a:hover,.u-palette-2 a:hover,.u-palette-2-light-1 a:hover,.u-palette-3-dark-3 a:hover,.u-palette-3-dark-2 a:hover,.u-palette-3-dark-1 a:hover,.u-palette-4-base a:hover,.u-palette-4-dark-3 a:hover,.u-palette-4-dark-2 a:hover,.u-palette-4-dark-1 a:hover,.u-palette-5-dark-3 a:hover,.u-palette-5-dark-2 a:hover,.u-palette-5-dark-1 a:hover,.u-grey-40 a:hover,.u-grey-30 a:hover,.u-grey-90 a:hover,.u-grey-80 a:hover,.u-grey-75 a:hover,.u-black a:hover,.u-grey-70 a:hover,.u-grey-60 a:hover,.u-grey-50 a:hover,.u-grey-dark-3 a:hover,.u-grey-dark-2 a:hover,.u-grey-dark-1 a:hover,.u-grey a:hover
+        .u-custom-color-3 a:hover,.u-custom-color-4 a:hover,.u-custom-color-5 a:hover,.u-custom-color-6 a:hover,.u-custom-color-7 a:hover,.u-custom-color-8 a:hover,.u-custom-color-10 a:hover,.u-body-color a:hover,.u-bg-color a:hover,.u-palette-1-base a:hover,.u-palette-1-dark-3 a:hover,.u-palette-1-dark-2 a:hover,.u-palette-1-dark-1 a:hover,.u-palette-1 a:hover,.u-palette-1-light-1 a:hover,.u-palette-2-base a:hover,.u-palette-2-dark-3 a:hover,.u-palette-2-dark-2 a:hover,.u-palette-2-dark-1 a:hover,.u-palette-2 a:hover,.u-palette-2-light-1 a:hover,.u-palette-3-dark-3 a:hover,.u-palette-3-dark-2 a:hover,.u-palette-3-dark-1 a:hover,.u-palette-4-base a:hover,.u-palette-4-dark-3 a:hover,.u-palette-4-dark-2 a:hover,.u-palette-4-dark-1 a:hover,.u-palette-5-dark-3 a:hover,.u-palette-5-dark-2 a:hover,.u-palette-5-dark-1 a:hover,.u-grey-40 a:hover,.u-grey-30 a:hover,.u-grey-90 a:hover,.u-grey-80 a:hover,.u-grey-75 a:hover,.u-black a:hover,.u-grey-70 a:hover,.u-grey-60 a:hover,.u-grey-50 a:hover,.u-grey-dark-3 a:hover,.u-grey-dark-2 a:hover,.u-grey-dark-1 a:hover,.u-grey a:hover
         {
         color: #a1a1a1;
         }
-        .u-custom-color-3 .u-btn,.u-custom-color-4 .u-btn,.u-custom-color-5 .u-btn,.u-custom-color-6 .u-btn,.u-custom-color-7 .u-btn,.u-body-color .u-btn,.u-bg-color .u-btn,.u-palette-1-base .u-btn,.u-palette-1-dark-3 .u-btn,.u-palette-1-dark-2 .u-btn,.u-palette-1-dark-1 .u-btn,.u-palette-1 .u-btn,.u-palette-1-light-1 .u-btn,.u-palette-2-base .u-btn,.u-palette-2-dark-3 .u-btn,.u-palette-2-dark-2 .u-btn,.u-palette-2-dark-1 .u-btn,.u-palette-2 .u-btn,.u-palette-2-light-1 .u-btn,.u-palette-3-dark-3 .u-btn,.u-palette-3-dark-2 .u-btn,.u-palette-3-dark-1 .u-btn,.u-palette-4-base .u-btn,.u-palette-4-dark-3 .u-btn,.u-palette-4-dark-2 .u-btn,.u-palette-4-dark-1 .u-btn,.u-palette-5-dark-3 .u-btn,.u-palette-5-dark-2 .u-btn,.u-palette-5-dark-1 .u-btn,.u-grey-40 .u-btn,.u-grey-30 .u-btn,.u-grey-90 .u-btn,.u-grey-80 .u-btn,.u-grey-75 .u-btn,.u-black .u-btn,.u-grey-70 .u-btn,.u-grey-60 .u-btn,.u-grey-50 .u-btn,.u-grey-dark-3 .u-btn,.u-grey-dark-2 .u-btn,.u-grey-dark-1 .u-btn,.u-grey .u-btn,.u-shading .u-btn,.u-overlap-contrast .u-header .u-btn
+        .u-custom-color-3 .u-btn,.u-custom-color-4 .u-btn,.u-custom-color-5 .u-btn,.u-custom-color-6 .u-btn,.u-custom-color-7 .u-btn,.u-custom-color-8 .u-btn,.u-custom-color-10 .u-btn,.u-body-color .u-btn,.u-bg-color .u-btn,.u-palette-1-base .u-btn,.u-palette-1-dark-3 .u-btn,.u-palette-1-dark-2 .u-btn,.u-palette-1-dark-1 .u-btn,.u-palette-1 .u-btn,.u-palette-1-light-1 .u-btn,.u-palette-2-base .u-btn,.u-palette-2-dark-3 .u-btn,.u-palette-2-dark-2 .u-btn,.u-palette-2-dark-1 .u-btn,.u-palette-2 .u-btn,.u-palette-2-light-1 .u-btn,.u-palette-3-dark-3 .u-btn,.u-palette-3-dark-2 .u-btn,.u-palette-3-dark-1 .u-btn,.u-palette-4-base .u-btn,.u-palette-4-dark-3 .u-btn,.u-palette-4-dark-2 .u-btn,.u-palette-4-dark-1 .u-btn,.u-palette-5-dark-3 .u-btn,.u-palette-5-dark-2 .u-btn,.u-palette-5-dark-1 .u-btn,.u-grey-40 .u-btn,.u-grey-30 .u-btn,.u-grey-90 .u-btn,.u-grey-80 .u-btn,.u-grey-75 .u-btn,.u-black .u-btn,.u-grey-70 .u-btn,.u-grey-60 .u-btn,.u-grey-50 .u-btn,.u-grey-dark-3 .u-btn,.u-grey-dark-2 .u-btn,.u-grey-dark-1 .u-btn,.u-grey .u-btn,.u-shading .u-btn,.u-overlap-contrast .u-header .u-btn
         {
         background-color: #ffffff;
         color: #000000;
         }
-        .u-custom-color-3 .u-btn:hover,.u-custom-color-4 .u-btn:hover,.u-custom-color-5 .u-btn:hover,.u-custom-color-6 .u-btn:hover,.u-custom-color-7 .u-btn:hover,.u-body-color .u-btn:hover,.u-bg-color .u-btn:hover,.u-palette-1-base .u-btn:hover,.u-palette-1-dark-3 .u-btn:hover,.u-palette-1-dark-2 .u-btn:hover,.u-palette-1-dark-1 .u-btn:hover,.u-palette-1 .u-btn:hover,.u-palette-1-light-1 .u-btn:hover,.u-palette-2-base .u-btn:hover,.u-palette-2-dark-3 .u-btn:hover,.u-palette-2-dark-2 .u-btn:hover,.u-palette-2-dark-1 .u-btn:hover,.u-palette-2 .u-btn:hover,.u-palette-2-light-1 .u-btn:hover,.u-palette-3-dark-3 .u-btn:hover,.u-palette-3-dark-2 .u-btn:hover,.u-palette-3-dark-1 .u-btn:hover,.u-palette-4-base .u-btn:hover,.u-palette-4-dark-3 .u-btn:hover,.u-palette-4-dark-2 .u-btn:hover,.u-palette-4-dark-1 .u-btn:hover,.u-palette-5-dark-3 .u-btn:hover,.u-palette-5-dark-2 .u-btn:hover,.u-palette-5-dark-1 .u-btn:hover,.u-grey-40 .u-btn:hover,.u-grey-30 .u-btn:hover,.u-grey-90 .u-btn:hover,.u-grey-80 .u-btn:hover,.u-grey-75 .u-btn:hover,.u-black .u-btn:hover,.u-grey-70 .u-btn:hover,.u-grey-60 .u-btn:hover,.u-grey-50 .u-btn:hover,.u-grey-dark-3 .u-btn:hover,.u-grey-dark-2 .u-btn:hover,.u-grey-dark-1 .u-btn:hover,.u-grey .u-btn:hover,.u-shading .u-btn:hover,.u-overlap-contrast .u-header .u-btn:hover
+        .u-custom-color-3 .u-btn:hover,.u-custom-color-4 .u-btn:hover,.u-custom-color-5 .u-btn:hover,.u-custom-color-6 .u-btn:hover,.u-custom-color-7 .u-btn:hover,.u-custom-color-8 .u-btn:hover,.u-custom-color-10 .u-btn:hover,.u-body-color .u-btn:hover,.u-bg-color .u-btn:hover,.u-palette-1-base .u-btn:hover,.u-palette-1-dark-3 .u-btn:hover,.u-palette-1-dark-2 .u-btn:hover,.u-palette-1-dark-1 .u-btn:hover,.u-palette-1 .u-btn:hover,.u-palette-1-light-1 .u-btn:hover,.u-palette-2-base .u-btn:hover,.u-palette-2-dark-3 .u-btn:hover,.u-palette-2-dark-2 .u-btn:hover,.u-palette-2-dark-1 .u-btn:hover,.u-palette-2 .u-btn:hover,.u-palette-2-light-1 .u-btn:hover,.u-palette-3-dark-3 .u-btn:hover,.u-palette-3-dark-2 .u-btn:hover,.u-palette-3-dark-1 .u-btn:hover,.u-palette-4-base .u-btn:hover,.u-palette-4-dark-3 .u-btn:hover,.u-palette-4-dark-2 .u-btn:hover,.u-palette-4-dark-1 .u-btn:hover,.u-palette-5-dark-3 .u-btn:hover,.u-palette-5-dark-2 .u-btn:hover,.u-palette-5-dark-1 .u-btn:hover,.u-grey-40 .u-btn:hover,.u-grey-30 .u-btn:hover,.u-grey-90 .u-btn:hover,.u-grey-80 .u-btn:hover,.u-grey-75 .u-btn:hover,.u-black .u-btn:hover,.u-grey-70 .u-btn:hover,.u-grey-60 .u-btn:hover,.u-grey-50 .u-btn:hover,.u-grey-dark-3 .u-btn:hover,.u-grey-dark-2 .u-btn:hover,.u-grey-dark-1 .u-btn:hover,.u-grey .u-btn:hover,.u-shading .u-btn:hover,.u-overlap-contrast .u-header .u-btn:hover
         {
         background-color: #e6e6e6;
         color: #ffffff;
         }
-        .u-custom-color-3 .u-btn:active,.u-custom-color-4 .u-btn:active,.u-custom-color-5 .u-btn:active,.u-custom-color-6 .u-btn:active,.u-custom-color-7 .u-btn:active,.u-body-color .u-btn:active,.u-bg-color .u-btn:active,.u-palette-1-base .u-btn:active,.u-palette-1-dark-3 .u-btn:active,.u-palette-1-dark-2 .u-btn:active,.u-palette-1-dark-1 .u-btn:active,.u-palette-1 .u-btn:active,.u-palette-1-light-1 .u-btn:active,.u-palette-2-base .u-btn:active,.u-palette-2-dark-3 .u-btn:active,.u-palette-2-dark-2 .u-btn:active,.u-palette-2-dark-1 .u-btn:active,.u-palette-2 .u-btn:active,.u-palette-2-light-1 .u-btn:active,.u-palette-3-dark-3 .u-btn:active,.u-palette-3-dark-2 .u-btn:active,.u-palette-3-dark-1 .u-btn:active,.u-palette-4-base .u-btn:active,.u-palette-4-dark-3 .u-btn:active,.u-palette-4-dark-2 .u-btn:active,.u-palette-4-dark-1 .u-btn:active,.u-palette-5-dark-3 .u-btn:active,.u-palette-5-dark-2 .u-btn:active,.u-palette-5-dark-1 .u-btn:active,.u-grey-40 .u-btn:active,.u-grey-30 .u-btn:active,.u-grey-90 .u-btn:active,.u-grey-80 .u-btn:active,.u-grey-75 .u-btn:active,.u-black .u-btn:active,.u-grey-70 .u-btn:active,.u-grey-60 .u-btn:active,.u-grey-50 .u-btn:active,.u-grey-dark-3 .u-btn:active,.u-grey-dark-2 .u-btn:active,.u-grey-dark-1 .u-btn:active,.u-grey .u-btn:active,.u-shading .u-btn:active,.u-overlap-contrast .u-header .u-btn:active
+        .u-custom-color-3 .u-btn:active,.u-custom-color-4 .u-btn:active,.u-custom-color-5 .u-btn:active,.u-custom-color-6 .u-btn:active,.u-custom-color-7 .u-btn:active,.u-custom-color-8 .u-btn:active,.u-custom-color-10 .u-btn:active,.u-body-color .u-btn:active,.u-bg-color .u-btn:active,.u-palette-1-base .u-btn:active,.u-palette-1-dark-3 .u-btn:active,.u-palette-1-dark-2 .u-btn:active,.u-palette-1-dark-1 .u-btn:active,.u-palette-1 .u-btn:active,.u-palette-1-light-1 .u-btn:active,.u-palette-2-base .u-btn:active,.u-palette-2-dark-3 .u-btn:active,.u-palette-2-dark-2 .u-btn:active,.u-palette-2-dark-1 .u-btn:active,.u-palette-2 .u-btn:active,.u-palette-2-light-1 .u-btn:active,.u-palette-3-dark-3 .u-btn:active,.u-palette-3-dark-2 .u-btn:active,.u-palette-3-dark-1 .u-btn:active,.u-palette-4-base .u-btn:active,.u-palette-4-dark-3 .u-btn:active,.u-palette-4-dark-2 .u-btn:active,.u-palette-4-dark-1 .u-btn:active,.u-palette-5-dark-3 .u-btn:active,.u-palette-5-dark-2 .u-btn:active,.u-palette-5-dark-1 .u-btn:active,.u-grey-40 .u-btn:active,.u-grey-30 .u-btn:active,.u-grey-90 .u-btn:active,.u-grey-80 .u-btn:active,.u-grey-75 .u-btn:active,.u-black .u-btn:active,.u-grey-70 .u-btn:active,.u-grey-60 .u-btn:active,.u-grey-50 .u-btn:active,.u-grey-dark-3 .u-btn:active,.u-grey-dark-2 .u-btn:active,.u-grey-dark-1 .u-btn:active,.u-grey .u-btn:active,.u-shading .u-btn:active,.u-overlap-contrast .u-header .u-btn:active
         {
         background-color: #e6e6e6;
         color: #ffffff;
