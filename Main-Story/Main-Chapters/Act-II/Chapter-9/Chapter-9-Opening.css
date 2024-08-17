@@ -79,14 +79,14 @@
     width: 340px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 628px;
+  min-height: 348px;
 }
 
 .u-section-2 .u-group-1 {
   width: 800px;
   min-height: 66px;
   height: auto;
-  margin: 30px auto 0;
+  margin: 34px auto 0;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -102,7 +102,7 @@
 
 .u-section-2 .u-accordion-1 {
   width: 800px;
-  margin: 0 auto 30px;
+  margin: 0 auto 34px;
 }
 
 .u-section-2 .u-accordion-item-1 {
