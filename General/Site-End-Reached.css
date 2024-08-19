@@ -8,7 +8,13 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 2005px;
+    min-height: 113px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 371px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -20,7 +26,13 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1798px;
+    min-height: 94px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 232px;
+    margin-top: 31px;
+    margin-bottom: 31px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 222px;
