@@ -35,7 +35,7 @@
 }
 
 .u-section-1 .u-video-poster-1 {
-  background-image: url("../../images/title_logo_splash_large.gif");
+  background-image: url("../../images/NierRein_SocialMedia_Promo1.webp");
 }
 
 @media (max-width: 1199px) {
@@ -500,6 +500,7 @@
 .u-section-6 .u-accordion-link-1 {
   font-size: 1.25rem;
   font-weight: 700;
+  font-style: italic;
 }
 
 .u-section-6 .u-accordion-pane-1 {
@@ -524,6 +525,7 @@
 .u-section-6 .u-accordion-link-2 {
   font-size: 1.25rem;
   font-weight: 700;
+  font-style: italic;
 }
 
 .u-section-6 .u-accordion-pane-2 {
