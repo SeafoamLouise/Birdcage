@@ -937,7 +937,7 @@
 
 .u-section-4 .u-text-6 {
   font-size: 1.125rem;
-  margin: 0 30px;
+  margin: 0 60px 0 0;
 }
 
 .u-section-4 .u-accordion-item-6 {
@@ -1099,6 +1099,10 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
+
+  .u-section-4 .u-text-3 {
+    font-weight: 400;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1156,7 +1160,6 @@
   }
 
   .u-section-4 .u-text-6 {
-    margin-left: 0;
     margin-right: 0;
   }
 
