@@ -36,6 +36,12 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .u-section-1 .u-group-1 {
     width: 720px;
   }
@@ -57,12 +63,6 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-text-1 {
-    width: auto;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   .u-section-1 .u-group-1 {
     width: 340px;
   }
