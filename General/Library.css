@@ -37,7 +37,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 742px;
+    min-height: 226px;
   }
 
   .u-section-1 .u-group-1 {
@@ -66,11 +66,12 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 457px;
+    min-height: 233px;
   }
 
   .u-section-1 .u-group-1 {
     width: 340px;
+    margin-bottom: 2px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 184px;

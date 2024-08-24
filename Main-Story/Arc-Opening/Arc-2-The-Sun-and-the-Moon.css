@@ -85,6 +85,12 @@
     min-height: 457px;
   }
 
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .u-section-1 .u-group-1 {
     width: 340px;
   }
