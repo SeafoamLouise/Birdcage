@@ -1,0 +1,162 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 838px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 12px auto 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 790px;
+  height: 373px;
+  margin: 29px auto 0;
+}
+
+.u-section-1 .u-image-2 {
+  width: 790px;
+  height: 372px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 772px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 720px;
+    height: 340px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 720px;
+    height: 339px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 602px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 255px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 540px;
+    height: 254px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 414px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 161px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+    height: 160px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 184px;
+}
+
+.u-section-2 .u-accordion-1 {
+  width: 800px;
+  margin: 40px auto;
+}
+
+.u-section-2 .u-accordion-item-1 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.u-section-2 .u-accordion-link-1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.u-section-2 .u-accordion-pane-1 {
+  min-height: 109px;
+  height: auto;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  margin: 0 auto;
+  padding: 9px 8px 10px;
+}
+
+.u-section-2 .u-btn-2 {
+  background-image: none;
+  margin: 20px auto 0;
+  padding: 9px 12px 9px 11px;
+}
+
+.u-section-2 .u-accordion-item-2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.u-section-2 .u-accordion-link-2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.u-section-2 .u-accordion-pane-2 {
+  min-height: 109px;
+  height: auto;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 0;
+}
+
+.u-section-2 .u-btn-3 {
+  background-image: none;
+  margin: 0 auto;
+  padding: 9px 8px 10px;
+}
+
+.u-section-2 .u-btn-4 {
+  background-image: none;
+  margin: 20px auto 0;
+  padding: 9px 12px 9px 11px;
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-accordion-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-accordion-1 {
+    width: 540px;
+  }
+
+  .u-section-2 .u-accordion-link-1 {
+    font-size: 1rem;
+  }
+
+  .u-section-2 .u-accordion-link-2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-accordion-1 {
+    width: 340px;
+  }
+}
