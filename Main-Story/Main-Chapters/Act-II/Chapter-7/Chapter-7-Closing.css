@@ -596,17 +596,5 @@
 
 .u-section-4 .u-btn-1 {
   background-image: none;
-  margin: 52px 390px 32px auto;
-}
-
-@media (max-width: 1199px) {
-  .u-section-4 .u-btn-1 {
-    margin-right: 190px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-4 .u-btn-1 {
-    margin-right: 0;
-  }
+  margin: 42px auto 32px;
 }
