@@ -162,7 +162,7 @@
     width: 340px;
   }
 }.u-section-3 .u-sheet-1 {
-  min-height: 318px;
+  min-height: 323px;
 }
 
 .u-section-3 .u-group-1 {
@@ -199,18 +199,12 @@
 }
 
 .u-section-3 .u-accordion-pane-1 {
-  min-height: 622px;
+  min-height: 317px;
   height: auto;
 }
 
 .u-section-3 .u-container-layout-2 {
   padding: 0;
-}
-
-.u-section-3 .u-image-1 {
-  width: 745px;
-  height: 559px;
-  margin: 0 auto;
 }
 
 .u-section-3 .u-text-2 {
@@ -229,18 +223,12 @@
 }
 
 .u-section-3 .u-accordion-pane-2 {
-  min-height: 622px;
+  min-height: 317px;
   height: auto;
 }
 
 .u-section-3 .u-container-layout-3 {
   padding: 0;
-}
-
-.u-section-3 .u-image-2 {
-  width: 745px;
-  height: 559px;
-  margin: 0 auto;
 }
 
 .u-section-3 .u-text-3 {
@@ -259,7 +247,7 @@
 }
 
 .u-section-3 .u-accordion-pane-3 {
-  min-height: 622px;
+  min-height: 317px;
   height: auto;
 }
 
@@ -267,15 +255,9 @@
   padding: 0;
 }
 
-.u-section-3 .u-image-3 {
-  width: 745px;
-  height: 559px;
-  margin: 0 auto;
-}
-
 .u-section-3 .u-text-4 {
   font-size: 1.125rem;
-  margin: 0 30px;
+  margin: 0 22px 0 38px;
 }
 
 .u-section-3 .u-accordion-item-4 {
@@ -289,18 +271,12 @@
 }
 
 .u-section-3 .u-accordion-pane-4 {
-  min-height: 622px;
+  min-height: 317px;
   height: auto;
 }
 
 .u-section-3 .u-container-layout-5 {
   padding: 0;
-}
-
-.u-section-3 .u-image-4 {
-  width: 745px;
-  height: 559px;
-  margin: 0 auto;
 }
 
 .u-section-3 .u-text-5 {
@@ -328,19 +304,9 @@
     width: 720px;
   }
 
-  .u-section-3 .u-image-1 {
-    width: 720px;
-    height: 540px;
-  }
-
   .u-section-3 .u-text-2 {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .u-section-3 .u-image-2 {
-    width: 720px;
-    height: 540px;
   }
 
   .u-section-3 .u-text-3 {
@@ -348,19 +314,9 @@
     margin-right: 0;
   }
 
-  .u-section-3 .u-image-3 {
-    width: 720px;
-    height: 540px;
-  }
-
   .u-section-3 .u-text-4 {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .u-section-3 .u-image-4 {
-    width: 720px;
-    height: 540px;
   }
 
   .u-section-3 .u-text-5 {
@@ -391,36 +347,16 @@
     font-size: 1rem;
   }
 
-  .u-section-3 .u-image-1 {
-    width: 540px;
-    height: 405px;
-  }
-
   .u-section-3 .u-accordion-link-2 {
     font-size: 1rem;
-  }
-
-  .u-section-3 .u-image-2 {
-    width: 540px;
-    height: 405px;
   }
 
   .u-section-3 .u-accordion-link-3 {
     font-size: 1rem;
   }
 
-  .u-section-3 .u-image-3 {
-    width: 540px;
-    height: 405px;
-  }
-
   .u-section-3 .u-accordion-link-4 {
     font-size: 1rem;
-  }
-
-  .u-section-3 .u-image-4 {
-    width: 540px;
-    height: 405px;
   }
 }
 
@@ -431,25 +367,5 @@
 
   .u-section-3 .u-accordion-1 {
     width: 340px;
-  }
-
-  .u-section-3 .u-image-1 {
-    width: 340px;
-    height: 255px;
-  }
-
-  .u-section-3 .u-image-2 {
-    width: 340px;
-    height: 255px;
-  }
-
-  .u-section-3 .u-image-3 {
-    width: 340px;
-    height: 255px;
-  }
-
-  .u-section-3 .u-image-4 {
-    width: 340px;
-    height: 255px;
   }
 }
