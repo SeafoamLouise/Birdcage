@@ -88,8 +88,18 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 2541px;
+  }
+
   .u-section-2 .u-group-1 {
     width: 720px;
+    min-height: 2436px;
+    margin-top: 1px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
   }
 }
 
