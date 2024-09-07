@@ -726,10 +726,28 @@
   padding: 9px 8px 10px;
 }
 
-@media (max-width: 1199px) {
-  .u-section-2 .u-btn-79 {
-    width: 121px;
-  }
+.u-section-2 .u-btn-80 {
+  background-image: none;
+  margin: 20px auto 0;
+  padding: 9px 8px 10px;
+}
+
+.u-section-2 .u-btn-81 {
+  background-image: none;
+  margin: 20px auto 0;
+  padding: 9px 8px 10px;
+}
+
+.u-section-2 .u-btn-82 {
+  background-image: none;
+  margin: 20px auto 0;
+  padding: 9px 8px 10px;
+}
+
+.u-section-2 .u-btn-83 {
+  background-image: none;
+  margin: 20px auto 0;
+  padding: 9px 8px 10px;
 }
 
 @media (max-width: 991px) {

@@ -330,7 +330,11 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-}.u-section-3 .u-sheet-1 {
+} .u-section-3 {
+  min-height: 318px;
+}
+
+.u-section-3 .u-sheet-1 {
   min-height: 1549px;
 }
 
@@ -478,10 +482,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3 {
-    min-height: 318px;
-  }
-
   .u-section-3 .u-sheet-1 {
     min-height: 89px;
   }
