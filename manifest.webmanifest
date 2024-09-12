@@ -1,0 +1,12 @@
+{
+  "name": "Final Thanks / Project B[i]rdcage",
+  "short_name": "Final Thanks / Project B[i]rdcage",
+  "id": "com.nierreincredits.projectbirdcage",
+  "description": "Thank you.\n\nnierrein.com",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
