@@ -1,139 +1,168 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8"/>
-    <link rel="manifest" href="manifest.webmanifest">
-
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-    <meta name="theme-color" content="#000000" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-			background-color: #000000;
-            overflow: hidden;
-		}
-        #canvasArea {
-            margin-left: auto;
-            margin-right: auto;
-            overflow: hidden;
-        }
-
-        
-	</style>
-    <!-- Libs and GDJS core files : -->
-		<script src="libs/jshashtable.js" crossorigin="anonymous"></script>
-	<script src="logger.js" crossorigin="anonymous"></script>
-	<script src="gd.js" crossorigin="anonymous"></script>
-	<script src="libs/rbush.js" crossorigin="anonymous"></script>
-	<script src="AsyncTasksManager.js" crossorigin="anonymous"></script>
-	<script src="inputmanager.js" crossorigin="anonymous"></script>
-	<script src="jsonmanager.js" crossorigin="anonymous"></script>
-	<script src="Model3DManager.js" crossorigin="anonymous"></script>
-	<script src="ResourceLoader.js" crossorigin="anonymous"></script>
-	<script src="ResourceCache.js" crossorigin="anonymous"></script>
-	<script src="timemanager.js" crossorigin="anonymous"></script>
-	<script src="polygon.js" crossorigin="anonymous"></script>
-	<script src="runtimeobject.js" crossorigin="anonymous"></script>
-	<script src="profiler.js" crossorigin="anonymous"></script>
-	<script src="RuntimeInstanceContainer.js" crossorigin="anonymous"></script>
-	<script src="runtimescene.js" crossorigin="anonymous"></script>
-	<script src="scenestack.js" crossorigin="anonymous"></script>
-	<script src="force.js" crossorigin="anonymous"></script>
-	<script src="RuntimeLayer.js" crossorigin="anonymous"></script>
-	<script src="layer.js" crossorigin="anonymous"></script>
-	<script src="RuntimeCustomObjectLayer.js" crossorigin="anonymous"></script>
-	<script src="timer.js" crossorigin="anonymous"></script>
-	<script src="runtimewatermark.js" crossorigin="anonymous"></script>
-	<script src="runtimegame.js" crossorigin="anonymous"></script>
-	<script src="variable.js" crossorigin="anonymous"></script>
-	<script src="variablescontainer.js" crossorigin="anonymous"></script>
-	<script src="oncetriggers.js" crossorigin="anonymous"></script>
-	<script src="runtimebehavior.js" crossorigin="anonymous"></script>
-	<script src="SpriteAnimator.js" crossorigin="anonymous"></script>
-	<script src="spriteruntimeobject.js" crossorigin="anonymous"></script>
-	<script src="affinetransformation.js" crossorigin="anonymous"></script>
-	<script src="CustomRuntimeObjectInstanceContainer.js" crossorigin="anonymous"></script>
-	<script src="CustomRuntimeObject.js" crossorigin="anonymous"></script>
-	<script src="CustomRuntimeObject2D.js" crossorigin="anonymous"></script>
-	<script src="events-tools/commontools.js" crossorigin="anonymous"></script>
-	<script src="events-tools/variabletools.js" crossorigin="anonymous"></script>
-	<script src="events-tools/runtimescenetools.js" crossorigin="anonymous"></script>
-	<script src="events-tools/inputtools.js" crossorigin="anonymous"></script>
-	<script src="events-tools/objecttools.js" crossorigin="anonymous"></script>
-	<script src="events-tools/cameratools.js" crossorigin="anonymous"></script>
-	<script src="events-tools/soundtools.js" crossorigin="anonymous"></script>
-	<script src="events-tools/storagetools.js" crossorigin="anonymous"></script>
-	<script src="events-tools/stringtools.js" crossorigin="anonymous"></script>
-	<script src="events-tools/windowtools.js" crossorigin="anonymous"></script>
-	<script src="events-tools/networktools.js" crossorigin="anonymous"></script>
-	<script src="splash/gd-logo-light.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/pixi.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/pixi-filters-tools.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/runtimegame-pixi-renderer.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/runtimescene-pixi-renderer.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/layer-pixi-renderer.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/pixi-image-manager.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/pixi-bitmapfont-manager.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/spriteruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/CustomRuntimeObject2DPixiRenderer.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/DebuggerPixiRenderer.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/loadingscreen-pixi-renderer.js" crossorigin="anonymous"></script>
-	<script src="pixi-renderers/pixi-effects-manager.js" crossorigin="anonymous"></script>
-	<script src="howler-sound-manager/howler.min.js" crossorigin="anonymous"></script>
-	<script src="howler-sound-manager/howler-sound-manager.js" crossorigin="anonymous"></script>
-	<script src="fontfaceobserver-font-manager/fontfaceobserver.js" crossorigin="anonymous"></script>
-	<script src="fontfaceobserver-font-manager/fontfaceobserver-font-manager.js" crossorigin="anonymous"></script>
-	<script src="gdjs-evtsext__flash__colortint-func.js" crossorigin="anonymous"></script>
-	<script src="gdjs-evtsext__flash__istinted-func.js" crossorigin="anonymous"></script>
-	<script src="gdjs-evtsext__flash__togglecolortint-func.js" crossorigin="anonymous"></script>
-	<script src="gdjs-evtsext__flash__toggleeffect-func.js" crossorigin="anonymous"></script>
-	<script src="gdjs-evtsext__flash__togglevisibility-func.js" crossorigin="anonymous"></script>
-	<script src="gdjs-evtsext__panelspritebutton__buttonfsm.js" crossorigin="anonymous"></script>
-	<script src="Extensions/PanelSpriteObject/panelspriteruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
-	<script src="Extensions/PanelSpriteObject/panelspriteruntimeobject.js" crossorigin="anonymous"></script>
-	<script src="Extensions/TextInput/textinputruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
-	<script src="Extensions/TextInput/textinputruntimeobject.js" crossorigin="anonymous"></script>
-	<script src="Extensions/TextObject/textruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
-	<script src="Extensions/TextObject/textruntimeobject.js" crossorigin="anonymous"></script>
-	<script src="Extensions/TweenBehavior/TweenManager.js" crossorigin="anonymous"></script>
-	<script src="Extensions/TweenBehavior/tweenruntimebehavior.js" crossorigin="anonymous"></script>
-	<script src="object-capabilities/EffectBehavior.js" crossorigin="anonymous"></script>
-	<script src="object-capabilities/OpacityBehavior.js" crossorigin="anonymous"></script>
-	<script src="object-capabilities/ResizableBehavior.js" crossorigin="anonymous"></script>
-	<script src="object-capabilities/ScalableBehavior.js" crossorigin="anonymous"></script>
-	<script src="object-capabilities/TextContainerBehavior.js" crossorigin="anonymous"></script>
-	<script src="Extensions/3D/HemisphereLight.js" crossorigin="anonymous"></script>
-	<script src="code0.js" crossorigin="anonymous"></script>
-	<script src="data.js" crossorigin="anonymous"></script>
-
-
-</head>
-<body>
-
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Project B[i]rdcage / NieR Re[in]carnation Revival Project</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="index.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.17.0, nicepage.com">
+    <meta property="og:title" content="Project B[i]rdcage / NieR Re[in]carnation Revival Project">
+    <meta property="og:description" content="All prayers lead to The Cage.
+A fan-made revival project to give the best experience of NieR Re[in]carnation after its end of service in April 2024.">
+    <meta property="og:image" content="images/Untitled.png">
+    <meta property="og:url" content="nierrein.com">
+    <link rel="canonical" href="nierrein.com">
+    <link rel="icon" href="../images/cm012001_full.png">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     
-	<script>
-
-    (function() {
-        //Initialization
-        var game = new gdjs.RuntimeGame(gdjs.projectData, {});
-
-        //Create a renderer
-        game.getRenderer().createStandardCanvas(document.body);
-
-        //Bind keyboards/mouse/touch events
-        game.getRenderer().bindStandardEvents(game.getInputManager(), window, document);
-
-        //Load all assets and start the game
-        game.loadAllAssets(function() {
-            game.startGameLoop();
-        });
-    })();
-
-	</script>
-</body>
-</html>
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Project Birdcage",
+		"url": "nierrein.com"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-fc9f"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container" style="">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-3 u-text-hover-palette-2-base" href="./" style="padding: 10px 20px;">[ Mama's Room ]</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-3 u-text-hover-palette-2-base" href="General/Library.html" style="padding: 10px 20px;">[ Library ]</a>
+</li><li class="u-nav-item" style=""><a class="u-button-style u-nav-link u-text-active-custom-color-3 u-text-hover-palette-2-base" href="General/Extra-Content.html" style="padding: 10px 20px;">[ Extra Content ]</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-3 u-text-hover-palette-2-base" href="General/Changelog.html" style="padding: 10px 20px;">[ Mama's News ]</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-3 u-text-hover-palette-2-base" href="General/Credits.html" style="padding: 10px 20px;">[ Credits ]</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./">[ Mama's Room ]</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="General/Library.html">[ Library ]</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="General/Extra-Content.html">[ Extra Content ]</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="General/Changelog.html">[ Mama's News ]</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="General/Credits.html">[ Credits ]</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <img class="u-flip-horizontal u-image u-image-contain u-image-default u-image-1" src="images/cm012001_full.png" alt="" data-image-width="252" data-image-height="305">
+        <img class="u-image u-image-contain u-image-default u-image-2" src="images/cm013001_full.png" alt="" data-image-width="179" data-image-height="276">
+      </div></header>
+    <section class="u-black u-clearfix u-section-1" id="sec-9cfb">
+      <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <img class="u-align-center u-image u-image-default u-image-1" src="images/title_logo_splash_large.gif" alt="" data-image-width="1600" data-image-height="1280">
+      </div>
+    </section>
+    <section class="u-black u-clearfix u-section-2" id="sec-2f2c">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-align-center u-audio u-border-2 u-border-grey-75 u-container-style u-custom-color-6 u-preserve-proportions u-uploaded-audio u-audio-1">
+          <div class="u-audio-main-layout-wrapper">
+            <div class="u-audio-cover-layout">
+              <div style="background-image: url(&quot;images/NierReinOST1.webp&quot;);" class="u-audio-cover" data-hook="cover"></div>
+            </div>
+            <div class="u-audio-main-layout">
+              <div class="u-audio-upper-layout">
+                <div class="player-track-meta">
+                  <span class="track-name">Beginning - Hajimari - 始マリ</span>
+                  <span class="artist-name">Shotaro Seo</span>
+                </div>
+              </div>
+              <div class="u-audio-lower-layout">
+                <div class="player-controls">
+                  <div class="u-play-layout">
+                    <button class="player-play-btn" role="button" data-playing="false">
+                      <div class="player-icon-play">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon class="icon-play" points="19.05 12 6 3.36 6 20.64 19.05 12"></polygon><rect class="icon-container" width="24" height="24"></rect></svg>
+                      </div>
+                      <div class="player-icon-pause u-hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><g><rect class="icon-pause" x="6" y="3.26" width="4" height="17.48"></rect><rect class="icon-pause" x="14" y="3.26" width="4" height="17.48"></rect>
+</g><rect class="icon-container" width="24" height="24"></rect></svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="player-timeline">
+                    <div class="u-custom-color-4 u-player-progress">
+                      <div class="u-custom-color-3 u-player-progress-filled" style="flex-basis:30%"></div>
+                    </div>
+                    <div class="player-time">
+                      <span class="player-time-current">00:00</span>/ <span class="player-time-duration">00:10</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <audio src="files/01.Hajimari--1.mp3" crossorigin="anonymous" preload="metadata"></audio>
+        </div>
+      </div>
+    </section>
+    <section class="u-black u-clearfix u-section-3" id="sec-56df">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-align-center u-text u-text-default u-text-1">"Thus do I remain in The Cage."</h4>
+        <div class="u-container-align-center u-container-style u-group u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <p class="u-align-center u-text u-text-default u-text-2">Welcome to <span style="font-weight: 700;" class="u-text-custom-color-3">Project B[i]rdcage</span>!<br>
+              <br>This is a website dedicated to <span style="font-style: italic;">NieR Re[in]carnation</span>, and aims to try to replicate the experience past the end of service for the game. The game was essentially&nbsp;<span style="font-weight: 700;"> NieR 3<span style="font-weight: 400;"> , so being able to help make an easy way to experience the game - including additional side content along the way - is the ultimate goal of this website.</span>
+              </span>
+              <br>
+              <br>This site could not exist without the myriad of people who have archived and kept safe content related to the game over the years, from guides to documents to websites to videos. They are what makes this site possible; this just compiles their work into an easy way to consume it!<br>
+              <br>This site is not for profit. It is open source and you can find its code on Github. It was actually made so that I could give a friend the best experience of the game who had just finished the rest of the series, so it's available for everybody else too!<br>
+              <br>
+              <span style="font-weight: 700;"> SPOILER WARNING</span>
+              <br>While this site aims to help present the game in a way you can experience it blindly and avoids spoiling future content of the game, it will assume that you have experienced the rest of the games in the series, such as&nbsp;<span style="font-style: italic;"> NieR Replicant</span>,&nbsp;<i> NieR: Automata, Drakengard,&nbsp;</i> and&nbsp; <span style="font-style: italic;">Drakengard 3</span>.&nbsp;​You are best entering this having gone through the rest of the series first (minus maybe ​Drakengard 2​. Sorry Nowe fans, all 4 of you). You have been warned!<br>
+              <br>We hope you enjoy your stay! Welcome to The Cage!<br>
+              <br>
+              <span class="u-text-custom-color-3">
+                <span style="font-weight: 700;"> DISCLAIMER</span>
+              </span>
+              <br>
+              <span style="font-weight: 700;" class="u-text-custom-color-3">
+                <span style="font-weight: 400;"> This website is still in development! You're seeing some stuff very! Please refer to the Changelog to see the site's current progress, but as of now, this site includes the entirety of the game! Thank you!</span>
+              </span>
+              <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-black u-clearfix u-section-4" id="sec-922c">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <a href="Prelude/Introduction.html" class="u-btn u-button-style u-custom-color-6 u-text-body-alt-color u-btn-1">Enter The Cage... </a>
+      </div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-container-align-center u-custom-color-5 u-footer" id="sec-b14a" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1"> ───────────────<br>
+          <br>All prayers lead to The Cage.<br>
+        </p>
+        <a href="https://discord.gg/KxnE7sJJPx" class="u-btn u-button-style u-custom-color-6 u-custom-item u-btn-1" target="_blank">[ Discord / Four's Airship​ ]</a>
+        <a href="https://www.reddit.com/r/okbuddyyorha/" class="u-btn u-button-style u-custom-color-6 u-custom-item u-btn-2" target="_blank">[ r/okbuddyyorha​ ]</a>
+        <a href="https://www.reddit.com/r/drakengard/" class="u-btn u-button-style u-custom-color-6 u-custom-item u-btn-3" target="_blank">[ r/drakengard​ ]</a>
+        <a href="https://ko-fi.com/seafoamlouise" class="u-align-center u-btn u-button-style u-custom-color-6 u-custom-item u-btn-4" target="_blank">[ Support on Ko-fi ]</a>
+        <p class="u-align-center u-small-text u-text u-text-variant u-text-2"> Project B[i]rdcage is not affiliated with or endorsed by SQUARE ENIX CO. LTD. neither by Applibot, Inc. All game assets used belongs to © SQUARE ENIX CO. LTD. and Applibot, Inc.<br>
+        </p>
+      </div></footer>
+  
+</body></html>
