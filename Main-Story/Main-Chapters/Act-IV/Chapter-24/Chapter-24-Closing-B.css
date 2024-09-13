@@ -115,15 +115,15 @@
     height: 256px;
   }
 } .u-section-2 {
-  min-height: 318px;
+  min-height: 189px;
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 791px;
+  min-height: 785px;
 }
 
 .u-section-2 .u-layout-wrap-1 {
-  margin: 27px 0;
+  margin: 27px 0 20px;
 }
 
 .u-section-2 .u-layout-cell-1 {
@@ -131,7 +131,7 @@
 }
 
 .u-section-2 .u-container-layout-1 {
-  padding: 30px 60px;
+  padding: 30px 57px;
 }
 
 .u-section-2 .u-image-1 {
@@ -140,19 +140,14 @@
   margin: 31px auto 0;
 }
 
+.u-section-2 .u-image-2 {
+  width: 207px;
+  height: 139px;
+  margin: 13px auto 0;
+}
+
 .u-section-2 .u-text-1 {
-  font-family: Angelic-Regular;
-  margin: 31px auto 0;
-}
-
-.u-section-2 .u-text-2 {
-  font-family: Angelic-Regular;
-  font-size: 1.25rem;
-  margin: 27px 0 0;
-}
-
-.u-section-2 .u-text-3 {
-  margin: 18px 0 0;
+  margin: 20px 4px 0;
 }
 
 .u-section-2 .u-layout-cell-2 {
@@ -204,7 +199,7 @@
 
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1247px;
+    min-height: 914px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
@@ -214,6 +209,20 @@
 
   .u-section-2 .u-layout-cell-1 {
     min-height: 609px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-top: 163px;
+  }
+
+  .u-section-2 .u-image-2 {
+    margin-top: -111px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 221px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-2 .u-layout-cell-2 {
@@ -236,7 +245,7 @@
   }
 
   .u-section-2 .u-sheet-1 {
-    min-height: 599px;
+    min-height: 771px;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -255,22 +264,18 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 928px;
+    min-height: 1004px;
   }
 
   .u-section-2 .u-container-layout-1 {
     padding-left: 50px;
     padding-right: 50px;
   }
-
-  .u-section-2 .u-text-2 {
-    font-size: 1rem;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 674px;
+    min-height: 745px;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 130px;
@@ -279,9 +284,4 @@
 .u-section-3 .u-btn-1 {
   background-image: none;
   margin: 42px auto;
-}@font-face {
-  font-family: 'Angelic-Regular';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/Angelic-Regular.otf);
 }

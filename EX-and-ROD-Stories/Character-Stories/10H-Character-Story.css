@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 294px;
+  min-height: 229px;
 }
 
 .u-section-1 .u-text-1 {
@@ -8,9 +8,9 @@
 
 .u-section-1 .u-group-1 {
   width: 800px;
-  min-height: 138px;
+  min-height: 104px;
   height: auto;
-  margin: 12px auto 19px;
+  margin: 12px auto 30px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -46,7 +46,6 @@
 
   .u-section-1 .u-group-1 {
     width: 720px;
-    margin-bottom: 0;
   }
 }
 
